@@ -36,6 +36,7 @@ a {
 .backgroundColorLabel {
   margin: auto;
   font-size: 2.5rem;
+  text-shadow: 2px 2px 5px white;
   display: flex;
   flex-wrap: wrap;
 }
@@ -43,6 +44,8 @@ a {
 .color {
   margin: auto 20px;
   font-size: 3.5rem;
+  text-shadow: 2px 2px 5px white;
+
 }
 
 .btn {
