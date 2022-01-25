@@ -13,7 +13,7 @@ function pickHexColor () {
     let newHexPart = hexParts[colorIndex];
     newColorArray.push(newHexPart);
   }
-  let newColor = "\#" + newColorArray[0] + newColorArray[1] + newColorArray[2] + newColorArray[3] + newColorArray[4] + newColorArray[5];
+  let newColor = "\#" + newColorArray.join("");
   color.innerHTML = newColor;
   return newColor;
 }
