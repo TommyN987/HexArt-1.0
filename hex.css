@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  background-color: #00ffff;
+}
+
+.header {
+  display: flex;
+  border: 3px solid black;
+  background-color: burlywood;
+}
+
+h1 {
+  margin: auto;
+}
+
+h3 {
+  margin: 10px 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 300px auto;
+}
+
+.backgroundColorLabel {
+  margin: auto;
+  font-size: 2.5rem;
+  display: flex;
+}
+
+.color {
+  margin: auto 20px;
+  font-size: 3.5rem;
+}
+
+.btn {
+  margin: 10px auto;
+  width: 150px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  background-color: burlywood;
+}
