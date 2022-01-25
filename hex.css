@@ -15,6 +15,7 @@ body {
 
 h1 {
   margin: auto;
+  text-align: center;
 }
 
 h3 {
@@ -36,6 +37,7 @@ a {
   margin: auto;
   font-size: 2.5rem;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .color {
@@ -52,4 +54,14 @@ a {
   font-size: 1.7rem;
   font-weight: bold;
   background-color: burlywood;
+}
+
+@media (max-width: 450px) {
+  header {
+    width: fit-content;
+  }
+  h2 {
+    margin: auto;
+    text-align: center;
+  }
 }
